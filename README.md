@@ -1,4 +1,4 @@
-# Welcome to Project 1 for MM216
+# Arya Aswini's Project 1 for MM216
 
 ## Moodboard and Wireframe 
 
