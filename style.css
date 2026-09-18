@@ -5,6 +5,13 @@ html, body {
   color: white;
   text-align: center;
 }
+
+#first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 canvas {
   display: block;
 }
