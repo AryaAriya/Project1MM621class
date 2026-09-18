@@ -9,3 +9,10 @@
 ### Link to Project
 ### Instructions
 Click on each of the two pumpkins with your mouse to see them change color randomly. Other than that, just watch the leaves falling down, admire the scenery, and enjoy!
+
+## Project Inspiration 
+https://editor.p5js.org/maryamalmatrooshi/sketches/8tY74Enmr
+
+https://thecodingtrain.com/tracks/algorithmic-botany/14-fractal-trees-recursive
+
+https://editor.p5js.org/Ben_Fozzie/sketches/6sCQSzmMi
