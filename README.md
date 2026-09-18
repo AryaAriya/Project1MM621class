@@ -8,4 +8,4 @@
 ## Link to the Project
 
 ### Instructions
-Click on each of the two pumpkins with your mouse to see them change color randomly. Other than that, just watch and enjoy!
+Click on each of the two pumpkins with your mouse to see them change color randomly. Other than that, just watch the leaves falling down, admire the scene, and enjoy!
