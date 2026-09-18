@@ -8,6 +8,8 @@
 
 ## Project Things
 ### Link to Project
+
+[Project 1](https://aryaariya.github.io/Project1MM621class/)
 ### Instructions
 Click on each of the two pumpkins with your mouse to see them change color randomly. Other than that, just watch the leaves falling down, admire the scenery, and enjoy!
 
