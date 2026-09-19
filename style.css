@@ -5,13 +5,19 @@ html, body {
   color: white;
   text-align: center;
 }
-
-#first {
+min-height: 100vh; 
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  flex-direction: column;
+} 
 
-canvas {
+#first { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-grow: 1; 
+} 
+
+canvas { 
   display: block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
 }
