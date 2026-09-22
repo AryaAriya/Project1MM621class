@@ -13,7 +13,7 @@
 ### Instructions
 Click on each of the two pumpkins with your mouse to see them change color - each pumpkin has its own unique color pallatte consisting of five colors each; they don't share the same colors at all, and the colors are randomly chosen from the color palette. Other than that, just watch the leaves falling down, admire the scenery, and enjoy!
 
-## Project Inspiration 
+## Project Inspiration and References
 https://editor.p5js.org/maryamalmatrooshi/sketches/8tY74Enmr
 
 https://thecodingtrain.com/tracks/algorithmic-botany/14-fractal-trees-recursive
