@@ -16,15 +16,9 @@ let rightPumpkin = [
   '#B87333'
 ];
 let pumpkinRightIndex = 0;//tracks which color from array is currently being used
-let backgroundMusic;
-
-function preload(){
-  backgroundMusic = loadSound('audio/alex-morgan-autumn-leaves-falling-517092.mp3'); //free background music from pixabay
-}
 
 function setup() {
   createCanvas(500, 500);
-  backgroundMusic.loop();
 
   for(let i = 0; i < numleaves; i++){//push new leaf into leaves array
     leaves.push(new leaf());
