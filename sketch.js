@@ -62,7 +62,7 @@ function draw() {
   rect(240, 240, 50, 130);
   rect(270, 250, 110, 100);
   rect(380, 240, 50, 130);
-  rect(300, 180, 50, 80)
+  rect(300, 180, 50, 80);
   rect(420, 180, 55, 190);
   rect(450, 210, 55, 160);
    
@@ -276,7 +276,7 @@ function drawFoliage(){
 
 function mousePressed() {
    if (!backgroundMusic.isPlaying()) { //if background music isn't playing start loop-style on first click
-    backgroundMusic.loop();
+     backgroundMusic.loop();
   }
   
   if (mouseX > 320 && mouseX < 420 && mouseY > 300 && mouseY < 350) {//bounding box of left pumpkin
