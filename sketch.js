@@ -1,3 +1,4 @@
+let backgroundMusic;
 let leaves = [];//array to store the leaves
 let numleaves = 60;//number of leaves to be displayed
 let leftPumpkin = [
@@ -24,6 +25,10 @@ function setup() {
     leaves.push(new leaf());
   }
 }  
+
+function preload(){
+  backgroundMusic = loadSound('alex-morgan-autumn-leaves-falling-517092.mp3');
+}
 
 function draw() {
   background(151, 186, 241);
@@ -261,15 +266,19 @@ function drawFoliage(){
 
     //pseudo-random offset so leaves scatter naturally around tip
     let xOffset = (i * 8) % 36 - 18;//results in value btwn -18 & 17
-    let yOffset = (i * 11) % 36 - 18;//results in value btwn -18 & 17     //varying widths and heights for leaves
+    let yOffset = (i * 11) % 36 - 18;//results in value btwn -18 & 17     
     let leafWidth = (i * 3) % 14 + 16;//width vary between 16 and 29
-    let leafHeight = leafWidth * 0.75;
+    let leafHeight = leafWidth * 0.75;//varying widths and heights for leaves
     //individual leaf
     ellipse(xOffset, yOffset, leafWidth, leafHeight);
   }
 }
 
 function mousePressed() {
+   if (!backgroundMusic.isPlaying()) { //if background music isn't playing start loop-style on first click
+    backgroundMusic.loop();
+  }
+  
   if (mouseX > 320 && mouseX < 420 && mouseY > 300 && mouseY < 350) {//bounding box of left pumpkin
      pumpkinLeftIndex = floor(random(leftPumpkin.length));//pick random whole number index from leftPumpkin color array
   }
